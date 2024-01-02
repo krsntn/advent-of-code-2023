@@ -29,4 +29,4 @@ for (let j = 1; j <= Math.floor(time / 2); j++) {
 const answers =
   disArr.filter((x) => x > distance).length * 2 - (time % 2 === 0 ? 1 : 0);
 
-console.log(answers.reduce((a, b) => a * b));
+console.log(answers);
